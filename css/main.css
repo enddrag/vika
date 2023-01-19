@@ -1,3 +1,23 @@
+@font-face{
+	src: url(../fonts/PressStart2P-Regular.ttf);
+	font-family: pix;
+}
+@font-face{
+	src: url(../fonts/PTMono-Regular.ttf);
+	font-family: name;
+}
+@font-face{
+	src: url(../fonts/DotGothic16-Regular.ttf);
+	font-family: butt;
+}
+@font-face{
+	src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+	font-family: article;
+}
+@font-face{
+	src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+	font-family: text;
+}
 body{
 	display: flex;
 	flex-direction: column;
@@ -29,6 +49,7 @@ body{
 	margin-top: 10px;
 	margin-bottom: 0px;
 	font-size: 25px;
+	font-family: name;
 }
 .photo{
 	width: 100%;
@@ -45,6 +66,7 @@ body{
 	color: #A0A0A0;
 	margin-bottom: 50px;
 	font-size: 40px;
+	font-family: pix;
 }
 .content{
 	width: 900px;
@@ -58,6 +80,7 @@ body{
 	font-size: 24px;
 	text-indent: 50px;
 	text-align: justify;
+	font-family: text;
 }
 .nav{
 	width: 900px;
@@ -69,6 +92,7 @@ body{
 .article{
 	width: 650px;
 	text-align: center;
+	font-family: article;
 	padding-bottom: 20px;
 	margin-bottom: 100px;
 	border-bottom: 1px solid black;
@@ -89,6 +113,8 @@ body{
 	align-items: center;
 	text-decoration: none;
 	color: #706E6E;
+	margin-right: 75px;
+	margin-left: 75px;
 }
 .photo-nav{
 	width: 125px;
@@ -96,6 +122,8 @@ body{
 }
 .name-nav{
 	text-align: center;
+	font-family: butt;
+	font-size: 12px;
 }
 @media screen and (max-width: 1150px){
 	.photo{
@@ -153,6 +181,10 @@ body{
 	.nav{
 		width: 500px;
 	}
+	.a{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
 }
 @media screen and (max-width: 500px){
 	.photo{
@@ -166,6 +198,10 @@ body{
 	}
 	.nav{
 		width: 300px;
+	}
+	.a{
+		margin-right: 10px;
+		margin-left: 10px;
 	}
 }
 @media screen and (max-width: 425px){
